@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{e9b4c046-bc16-4a88-8964-75d8185af970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header Files">
+      <UniqueIdentifier>{354989a3-96b6-42ea-b2e1-be95417afff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header Files\MSVC">
+      <UniqueIdentifier>{34a1c20d-c70b-4c73-a5af-dbaf2c9d63e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source Files">
+      <UniqueIdentifier>{a8a334f9-c4f2-4575-a5af-19464595e642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{2e8b56bd-0db4-48cb-86a7-5e335c75fea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Source Files">
+      <UniqueIdentifier>{11f7aaac-b856-4815-a6c9-7f7dd6dab5ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Header Files">
+      <UniqueIdentifier>{9f147d4f-dba5-438d-b72f-201b471da35c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audiolib">
+      <UniqueIdentifier>{388cf955-7fd1-4936-a2ee-d929d5d2166c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audiolib\Header Files">
+      <UniqueIdentifier>{515feb3a-4e88-4a12-995a-7b59fe05647d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audiolib\Source Files">
+      <UniqueIdentifier>{8194491c-66db-4950-a274-3eef35671b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mact">
+      <UniqueIdentifier>{e9864f36-f8e6-4eee-9ccf-ed0d218da367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mact\Header Files">
+      <UniqueIdentifier>{68daf12f-52c4-4427-8a94-b37ab3c0290a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mact\Source Files">
+      <UniqueIdentifier>{fe68a40b-1d15-45e0-ac1d-f003a649f991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{22e8fec3-b34d-4d00-8cb0-46a8d339b1e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enet">
+      <UniqueIdentifier>{fe8e4d20-b562-4d42-96cc-530446625b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enet\source">
+      <UniqueIdentifier>{53dcf86e-70e9-4da7-abc1-09c8f6a214eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enet\headers">
+      <UniqueIdentifier>{b071d107-8d9e-4a5a-842b-739d752584ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="build\include\a.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\baselayer.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\build.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\cache1d.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\compat.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\crc32.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\dxdidf.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\dynamicgtk.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\editor.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\enet_mmulti.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\glbuild.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\glext.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\gtkbits.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\kplib.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\lzwnew.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\malloc.c.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\md4.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\mdsprite.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\mmulti.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\nedmalloc.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\osd.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\osxbits.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\osxmain.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\polymer.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\polymost.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\pragmas.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\quicklz.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\scriptfile.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\sdlayer.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\startwin.editor.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\winlayer.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\msvc\inttypes.h">
+      <Filter>Engine\Header Files\MSVC</Filter>
+    </ClInclude>
+    <ClInclude Include="build\include\msvc\stdint.h">
+      <Filter>Engine\Header Files\MSVC</Filter>
+    </ClInclude>
+    <ClInclude Include="build\src\engine_priv.h">
+      <Filter>Engine\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\_functio.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\_rts.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\config.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\duke3d.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\funct.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\function.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gamedef.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gamedefs.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\grpscan.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\keys.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\macros.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\mapster32.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\mdump.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\names.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\namesdyn.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\osdcmds.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\osdfuncs.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\rts.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\soundefs.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sounds.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sounds_mapster32.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\startwin.game.h">
+      <Filter>Game\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jaudiolib\src\_multivc.h">
+      <Filter>Audiolib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jaudiolib\src\driver_directsound.h">
+      <Filter>Audiolib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jaudiolib\src\driver_nosound.h">
+      <Filter>Audiolib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jaudiolib\src\driver_sdl.h">
+      <Filter>Audiolib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jaudiolib\src\drivers.h">
+      <Filter>Audiolib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jaudiolib\include\fx_man.h">
+      <Filter>Audiolib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jaudiolib\src\linklist.h">
+      <Filter>Audiolib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jaudiolib\src\ll_man.h">
+      <Filter>Audiolib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jaudiolib\src\multivoc.h">
+      <Filter>Audiolib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jaudiolib\include\music.h">
+      <Filter>Audiolib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jaudiolib\src\pitch.h">
+      <Filter>Audiolib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jaudiolib\include\sndcards.h">
+      <Filter>Audiolib\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jmact\_control.h">
+      <Filter>Mact\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jmact\_scrplib.h">
+      <Filter>Mact\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jmact\animlib.h">
+      <Filter>Mact\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jmact\control.h">
+      <Filter>Mact\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jmact\file_lib.h">
+      <Filter>Mact\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jmact\keyboard.h">
+      <Filter>Mact\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jmact\mathutil.h">
+      <Filter>Mact\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jmact\mouse.h">
+      <Filter>Mact\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jmact\scriplib.h">
+      <Filter>Mact\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\jmact\util_lib.h">
+      <Filter>Mact\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\enet\include\enet\callbacks.h">
+      <Filter>enet\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\enet\include\enet\enet.h">
+      <Filter>enet\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\enet\include\enet\list.h">
+      <Filter>enet\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\enet\include\enet\protocol.h">
+      <Filter>enet\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\enet\include\enet\time.h">
+      <Filter>enet\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\enet\include\enet\types.h">
+      <Filter>enet\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\enet\include\enet\unix.h">
+      <Filter>enet\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\enet\include\enet\utility.h">
+      <Filter>enet\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="source\enet\include\enet\win32.h">
+      <Filter>enet\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="build\src\a-c.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\baselayer.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\build.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\cache1d.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\compat.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\config.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\crc32.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\defs.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\dynamicgtk.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\engine.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\glbuild.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\gtkbits.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\hightile.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\kplib.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\lzwnew.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\md4.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\mdsprite.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\nedmalloc.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\osd.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\polymer.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\polymost.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\pragmas.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\quicklz.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\scriptfile.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\sdlayer.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\smalltextfont.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\startgtk.editor.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\startwin.editor.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\textfont.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="build\src\winlayer.c">
+      <Filter>Engine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\actors.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\anim.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\astub.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\config.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\game.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gamedef.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gameexec.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gamestructures.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gamevars.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\global.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\grpscan.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\m32def.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\m32exec.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\m32structures.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\m32vars.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mdump.cpp">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\menus.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\midi.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mpu401.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\music.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\namesdyn.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\osdcmds.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\osdfuncs.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\player.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\premap.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\rts.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\savegame.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sdlmusic.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sector.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sounds.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sounds_mapster32.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\startgtk.game.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\startwin.game.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\winbits.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\wrapper.c">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jaudiolib\src\driver_directsound.c">
+      <Filter>Audiolib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jaudiolib\src\driver_nosound.c">
+      <Filter>Audiolib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jaudiolib\src\driver_sdl.c">
+      <Filter>Audiolib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jaudiolib\src\drivers.c">
+      <Filter>Audiolib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jaudiolib\src\fx_man.c">
+      <Filter>Audiolib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jaudiolib\src\mix.c">
+      <Filter>Audiolib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jaudiolib\src\mixst.c">
+      <Filter>Audiolib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jaudiolib\src\multivoc.c">
+      <Filter>Audiolib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jaudiolib\src\pitch.c">
+      <Filter>Audiolib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jaudiolib\src\vorbis.c">
+      <Filter>Audiolib\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jmact\animlib.c">
+      <Filter>Mact\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jmact\control.c">
+      <Filter>Mact\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jmact\file_lib.c">
+      <Filter>Mact\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jmact\keyboard.c">
+      <Filter>Mact\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jmact\mathutil.c">
+      <Filter>Mact\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jmact\mouse.c">
+      <Filter>Mact\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jmact\scriplib.c">
+      <Filter>Mact\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\jmact\util_lib.c">
+      <Filter>Mact\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\enet\src\callbacks.c">
+      <Filter>enet\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\enet\src\host.c">
+      <Filter>enet\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\enet\src\list.c">
+      <Filter>enet\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\enet\src\packet.c">
+      <Filter>enet\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\enet\src\peer.c">
+      <Filter>enet\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\enet\src\protocol.c">
+      <Filter>enet\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\enet\src\unix.c">
+      <Filter>enet\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\enet\src\win32.c">
+      <Filter>enet\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
